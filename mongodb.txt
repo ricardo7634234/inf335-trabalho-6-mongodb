@@ -1,0 +1,45 @@
+use lojadb
+
+db.produtos.insertOne({
+  _id: "1",
+  nome: "Celular Galaxy S10",
+  descricao: "128 Gb, Preto, com Carregador",
+  valor: 1250,
+  estado: "Poucos riscos, esdo de novo"
+})
+db.produtos.insertOne({
+  _id: "2",
+  nome: "Prod 2",
+  descricao: "Bla bla",
+  valor: 1100.0,
+  estado: "Bla bla"
+})
+db.produtos.insertOne({
+  _id: "3",
+  nome: "Prod 3",
+  descricao: "Bla bla",
+  valor: 120.0,
+  estado: "Bla bla"
+})
+db.produtos.insertOne({
+  _id: "4",
+  nome: "Prod 4",
+  descricao: "Bla bla",
+  valor: 1300.0,
+  estado: "Bla bla"
+})
+db.produtos.insertOne({
+  _id: "5",
+  nome: "Prod 5",
+  descricao: "Bla bla",
+  valor: 9400.0,
+  estado: "Bla bla"
+})
+db.produtos.insertOne({
+  _id: "6",
+  nome: "Prod 6",
+  descricao: "Bla bla",
+  valor: 1500.0,
+  estado: "Bla bla"
+})
+
